@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="text-align: center; color: black;" >
+    <form  action="Welcome Chirayu">
+    <h1>PAYMENT   FORM</h1>
+    <hr>
+    <h5>REQUIRED FIELDS ARE FOLLOWED BY * </h5>
+    <br>
+    <h2>CONTACT INFORMATION</h2>
+    <hr><br>
+    <label for="name">
+        NAME * 
+        <input type="text" placeholder="Enter the name" required>
+    </label>
+    <br><br>
+    <fieldset>
+        <legend >GENDER * </legend>
+        <br>
+        <label for="radio">
+            MALE
+            <input type="radio" id="radio" name="male">
+            FEMALE
+            <input type="radio" id="radio" name="male">
+            <br><br>
+        </label>
+    </fieldset>
+    <br>
+    <label for="area">
+        ADDRESS:
+        <textarea name="textarea" id="area" cols="30" rows="6"></textarea>
+    </label>
+    <br><br>
+    <label for="email">
+        EMAIL *
+        <input type="email" required>
+    </label>
+    <br><br>
+    <label for="pincode">
+        PINCODE *
+        <input type="tel" required >
+    </label>
+    <br>
+    <h2>PAYMENT INFORMATION</h2>
+    <label for="card">
+        CARD TYPE *
+        <select name="card type" id="card" required>
+            <option value="11">--Select a Card Type--</option>
+            <option  value="1">Credit Card</option>
+            <option value="2">Debit Card</option>
+            <option value="3">Prepaid Card</option>
+            <option value="4">Digital Wallets</option>
+        </select>
+    </label>
+    <br><br>
+    <label for="card number">
+        CARD NUMBER *
+        <input type="number" placeholder="Card Number" required> 
+    </label>
+    <br><br>
+    <label for="date">
+        EXPIRATION DATE *
+        <input type="date" min="2024-01-01" max="2024-12-31" required>
+    </label>
+        <br><br>
+    <label for="cw">
+        CW *
+        <input type="text" placeholder="CW" required>
+    </label>
+    <br><br>
+    <input type="submit" value="Pay Now">
+</form>
+</body>
+</html>
